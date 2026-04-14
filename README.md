@@ -13,6 +13,20 @@ This was originally created with [PlotToSat](https://github.com/Art-n-MathS/Plot
 
 For larger regions, multiple shapefiles may be generated (depending on shapefile size limits and Earth Engine upload/processing limits). I recommend using `papermill` with a simple Earth Engine queue status checker to automate PlotToSat notebook execution. I can provide an example if you contact me.
 
+# Installation Guide 
+
+Install the required dependencies using:
+
+```
+pip install -r .\requirements.txt
+```
+
+or alternativly just:
+
+```
+pip install earthengine-api
+``` 
+
 ## Requirements
 
 Earth Engine API — `ee`  
